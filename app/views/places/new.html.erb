@@ -1,7 +1,11 @@
 <%= form_with :model => @place do |form| %>
   <p>
-    <%= form.label "name", "name" %>
+    <%= form.label "name", "Place Name" %>
     <%= form.text_field "name" %>
   </p>
   <%= form.submit %>
 <% end %>
+
+<p>
+  <a href = "/places" >Back to Places </a>
+<p>
